@@ -9,7 +9,7 @@ Python code for generating illustrations for stories with original texts using S
 
 |Base Image|Summarized Text|Generated Image|
 |-|-|-|
-|![image](assets/example3_base.PNG)|The pot of fat was still in its place, but it was empty. The cat devoured it.|![image](assets/example3_gen_summarized.PNG)|
+|![image](assets/example3_base.PNG)|The pot of fat was still in its place, but it was empty. The cat devoured it. The mouse is angry at the cat for eating it.|![image](assets/example3_gen_summarized.PNG)|
 ## How to use
 ### 1. Install the following package
   - diffusers==0.3.0
