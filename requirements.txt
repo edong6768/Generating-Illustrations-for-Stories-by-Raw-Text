@@ -1,0 +1,11 @@
+#torch는 본인 gpu에 맞는 버젼을 찾아서 설치
+transformers
+scipy
+ftfy
+opencv
+numpy
+tqdm
+huggingface_hub
+diffusers==0.3.0
+matplotlib
+pandas
