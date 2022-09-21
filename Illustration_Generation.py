@@ -15,7 +15,7 @@ def add_postfix(prompt='', start=0, end=-1):
 if __name__=="__main__":
     os.environ['KMP_DUPLICATE_LIB_OK']='True'
     device = 'cuda'
-    f_root = ".../Grimm Fairy Tale preprocess/"
+    f_root = "./data/"
 
 
     # make sure you're logged in with `huggingface-cli login`
@@ -51,7 +51,7 @@ if __name__=="__main__":
         with autocast(device):
             image = pipe2(prompt=prompt, init_image=init_img, num_inference_steps=60, strength=0.9, guidance_scale=7.5, generator=generator).images[0]
 
-        image.save(f_root + f"imageset/{idx:06d}.jpg")
+        image.save(f_root + f"generated_images/{idx:06d}.jpg")
 
 
         
