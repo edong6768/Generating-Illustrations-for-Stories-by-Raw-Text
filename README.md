@@ -1,4 +1,4 @@
-# Generating-Illustrations-for-Stories-by-Raw-Text
+# Generating Illustrations for Stories by Raw Text
 Python code for generating illustrations for stories with original texts using Stable Diffusion and BART
 ### Pipeline
 ![image](assets/Pipeline.png)
